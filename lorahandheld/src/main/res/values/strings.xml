@@ -1,0 +1,75 @@
+<resources>
+    <string name="app_name">Lora手持机</string>
+    <string name="title_devices">Lora手持机</string>
+    <string name="label_device_name">已连接设备:</string>
+    <string name="label_device_address">MAC 地址 </string>
+    <string name="setting_controller">操控器:</string>
+    <string name="btn_send">发送</string>
+    <string name="send_fail">发送失败</string>
+    <string name="send_success">发送成功</string>
+    <string name="btn_stop">停止</string>
+    <string name="label_input">命令帧:</string>
+
+    <string name="tip_no_msg">请输入命令帧后，再发送</string>
+    <string name="tip_conn_status_err">连接状态异常，请重新连接！</string>
+
+    <string name="action_settings">设置</string>
+    <string name="menu_name">刷新</string>
+    <string name="menu_scan">搜索蓝牙</string>
+    <string name="menu_stop">停止搜索</string>
+    <string name="title_activity_qpp">QppActivity</string>
+    <string name="menu_nameqpp">bluetooth</string>
+    <string name="menu_connect">连接</string>
+    <string name="menu_disconnect">断开</string>
+
+    <string name="label_state">Qpp Service:</string>
+
+    <string name="label_notified">Data Received : </string>
+    <string name="label_data_received">Data: </string>
+    <string name="label_data_rate">Data Rate: </string>
+    <string name="label_Bps">Bps</string>
+
+    <string name="label_error_data">Error: </string>
+    <string name="label_error_count">Count: </string>
+
+    <string name="text_RxTx_Split">-----------------------------------------</string>
+    <string name="label_data_sent">Data Sent : </string>
+
+    <string name="label_delay">Delay : </string>
+    <string name="bit10">10</string>
+    <string name="text_ms">ms</string>
+    <string name="text_delay_range">(0~9999)</string>
+
+
+
+    <string name="label_hex">0x</string>
+    <string name="label_input_hint">(0~9,A~F)</string>
+
+    <string name="label_send_pkg_repeat">Times:</string>
+
+
+
+    <string name="text_repeat">Repeat</string>
+
+    <string name="text_counter_def">0</string>
+
+    <string name="label_version">Version 0.97.1</string>
+    <string name="ble_not_supported">不支持低功耗蓝牙，无法使用</string>
+    <string name="error_bluetooth_not_supported">不支持蓝牙</string>
+    <string name="unknown_device">位置设备</string>
+    <string name="qpp_support">状态：正常</string>
+    <string name="qpp_not_support">状态：异常</string>
+
+
+    <!--begin login-->
+    <string name="hint_input_account">请输入账号</string>
+    <string name="hint_input_password">请输入密码</string>
+    <!--end login-->
+
+    <!--usage 1 MainActivity;-->
+    <string name="tip_open_bluetooth">请打开蓝牙连接</string>
+    <string name="tip_request_permission">搜索蓝牙设备必备权限，请同意！</string>
+    <string name="tip_request_camera">请同意打开相机，以扫描条码内容！</string>
+
+
+</resources>

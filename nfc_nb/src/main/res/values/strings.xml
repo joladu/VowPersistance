@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">nfc_nb</string>
+    <string name="tip_not_support_nfc"></string>
+</resources>

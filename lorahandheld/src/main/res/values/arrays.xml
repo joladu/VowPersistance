@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="equip_type_arr">
+        <item>水表</item>
+        <item>气表</item>
+        <!--<item>干线节点</item>-->
+    </string-array>
+
+    <string-array name="mode_controller_arr">
+        <item>请选择模式</item>
+        <item>子节点模式</item>
+        <item>采集模式</item>
+        <item>中继模式</item>
+    </string-array>
+
+    <string-array name="rate_controller_arr">
+        <item>请选择抄表频率</item>
+        <item>公共信道-496Mhz</item>//6013
+        <item>信道1:493Mhz</item>//4213
+        <item>信道2:493.4Mhz</item>//4613
+        <item>信道3:493.8Mhz</item>//4A13
+        <item>信道4:494.2Mhz</item>//4E13
+        <item>信道5:494.6Mhz</item>//5213
+        <item>信道6:495Mhz</item>//5613
+        <item>信道7:495.4Mhz</item>//5A13
+        <item>信道8:495.6Mhz</item>//5C13
+        <item>信道9:497Mhz</item>//6A13
+        <item>信道10:497.4Mhz</item>//6E13
+        <item>信道11:497.8Mhz</item>//7213
+        <item>信道12:498.2Mhz</item>//7613
+        <item>信道13:498.6Mhz</item>//7A13
+        <item>信道14:499Mhz</item>//7E13
+        <item>路由信道:492.5Mhz</item>//3D13
+        <item>升级信道0:492Mhz</item>//3813
+        <item>升级信道1:491.5Mhz</item>//3313
+    </string-array>
+
+
+
+    <string-array name="rate_wrieless_arr">
+        <item>公共信道-496Mhz</item>
+        <item>信道1:493Mhz</item>
+        <item>信道2:493.4Mhz</item>
+        <item>信道3:493.8Mhz</item>
+        <item>信道4:494.2Mhz</item>
+        <item>信道5:494.6Mhz</item>
+        <item>信道6:495Mhz</item>
+        <item>信道7:495.4Mhz</item>
+        <item>信道8:495.6Mhz</item>
+        <item>信道9:497Mhz</item>
+        <item>信道10:497.4Mhz</item>
+        <item>信道11:497.8Mhz</item>
+        <item>信道12:498.2Mhz</item>
+        <item>信道13:498.6Mhz</item>
+        <item>信道14:499Mhz</item>
+    </string-array>
+
+
+    <!--干线节点命令-->
+    <string-array name="command_main_node">
+        <item>广播搜索地址</item>
+        <item>读通信参数</item>
+    </string-array>
+    
+    <!--子节点命令集-->
+    <string-array name="command_type">
+        <!-- 1 810A-->
+        <item>读表地址</item>
+
+        <!--2 A018-->
+        <item>写表地址</item>
+
+        <!--3 901F-->
+        <item>读计量数据</item>
+
+        <!--4 D120 (对应上1个月) ` D131（上18个月） -->
+        <item>读历史累积量</item>
+
+        <!--5 D134（上 1 日） ` D153（上31日） -->
+        <item>读历史冻结量</item>
+
+        <!--6 A016-->
+        <item>写机电同步数据</item>
+
+        <!--7 A015-->
+        <item>校时</item>
+
+        <!--8 A017 55 -->
+        <item>开阀</item>
+
+        <!--8 A017 99 -->
+        <item>关阀</item>
+
+        <!--9 A019-->
+        <item>出厂启用</item>
+
+        <!--10 A018-->
+        <item>设置厂内</item>
+
+        <!--11 A010-->
+        <item>读EEPROM</item>
+
+        <!--12 A011-->
+        <item>读电池电压</item>
+
+        <!-- 14 A013-->
+        <item>清表数据</item>
+
+        <!-- 15 A01A-->
+        <item>读软件版本号</item>
+
+        <!-- 16 A01B -->
+        <item>读表运行数据</item>
+
+        <!-- 17 A01C-->
+        <item>读Boot版本号</item>
+
+        <!-- 18 A01D 15个信道选择-->
+        <item>设置无线信道</item>
+
+        <!-- 19 A01E-->
+        <item>读硬件版本号</item>
+
+        <!-- 20 A01F-->
+        <item>设置内条码</item>
+
+        <!-- 20 A01F-->
+        <!--<item>读内条码</item>-->
+
+        <!-- 21 A020-->
+        <item>生产专用1</item>
+
+        <!-- 21 A021-->
+        <item>生产专用2</item>
+
+        <!-- 22 A022-->
+        <item>软件复位</item>
+
+    </string-array>
+
+</resources>
